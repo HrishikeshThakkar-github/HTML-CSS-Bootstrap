@@ -4,25 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic elements</title>
+    <style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+button:link{
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+button:hover {
+  background-color: red;
+}
+</style>
 </head>
 
 <body>
     <h1>HTML Guide</h1>
 
-    <!-- What is HTML? -->
-    <section>
-        <h2>What is HTML?</h2>
-        <p>HTML stands for HyperText Markup Language. It is the standard language used to create web pages. HTML defines the structure of a web page using a series of elements (tags) that tell the browser how to display content such as text, images, links, and other media.</p>
-    </section>
-    <pre>
-        My Bonnie lies over the ocean.
+    <!-- HTML Comment -->
 
-        My Bonnie lies over the sea.
+    <pre><!--this is a tag wherein the enterd format remains the same even on webpage-->
+        Block-level Elements
+        These elements take up the full width available and start on a new line.
 
-        My Bonnie lies over the ocean.
-        
-        Oh, bring back my Bonnie to me.
+        Inline Elements
+        These elements take up only as much width as necessary and don’t start on a new line.
     </pre>
+
+    <div>
+        <h5>This is a <mark> Block </mark> Element</h5>
+        <span>This is an Inline Element</span>
+        <img src="image.jpg" alt="Sample Image">
+
+    </div>
+    <div>
+        <h2>Link Button</h2>
+        <p>A link styled as a button:</p>
+        <a href="default.asp" target="_blank">This is a link</a>
+        
+
+    </div>
+    
 
 </body>
 </html>
