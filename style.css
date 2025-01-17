@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+html,body{  
+    width: 100%;
+    height: 100%;
+}
+
+#para1{
+    text-emphasis-color: blue;
+    background: yellow;
+    height: auto;
+    width: 350px;
+    border: solid white 3px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.para1{
+    text-emphasis-color: red;
+    background-color: blue;
+    height: auto;
+    width: 350px;
+
+    border: solid green 3px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.span_heading{
+
+    background-color: aqua;
+    border:solid blue ;
+    border-radius: 50px;
+}
+
+.heading{
+    background-color: brown;
+} */
