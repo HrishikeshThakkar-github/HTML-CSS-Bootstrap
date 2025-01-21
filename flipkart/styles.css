@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.banner {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.banner-track {
+    display: flex;
+    width: 200%;  /* Double the slides to ensure seamless scrolling */
+    animation: scroll 15s linear infinite;
+}
+
+.slide {
+    width: 25%; /* Each slide takes up 25% of the banner-track width */
+    flex-shrink: 0;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+/* Keyframe animation for continuous scrolling effect */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
