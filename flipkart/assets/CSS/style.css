@@ -119,5 +119,50 @@ a{
 
 .advertisement{
     width: 85vw;
-    margin: 0.6rem;
+    margin-top: 1.3rem;
+}
+
+
+.initial-items-list{
+    background-color: white;
+    width: 85vw;
+    display: grid;
+    grid-template-columns: 83% 17%;
+    gap: 10px;
+
+    
+}
+
+.cards-wrapper{
+    display: flex;
+}
+
+.card{
+    margin: 0.5rem;
+}
+
+.Secondary-items-list{
+    width: 85vw;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 10px;
+
+    
+}
+
+.footer-container{
+    width: 100vw;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start;  
+    color: #f0f5ff;
+    display: flex; justify-content: center; align-items: flex-start;
+}
+
+.end-row{
+    height: 20rem; 
+    width: 100vw; 
+    background-color: black; 
+    align-items:flex-start;
 }
