@@ -1,2 +1,4 @@
-# HTML
-This is a repository for storing HTML learnings
+
+
+
+Please checkout Flipkart folder for Html- practical Assesment
